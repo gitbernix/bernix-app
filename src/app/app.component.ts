@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +6,6 @@ import { NgModel } from '@angular/forms';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'bernix-app';
-
   loadedFeature = 'recipe';
 
   onNavigate(feature: string) {
